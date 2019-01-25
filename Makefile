@@ -2,7 +2,7 @@ PROJECT?=github.com/jirawatfreedom/rest-api
 APP?=rest-api
 PORT?=8000
 
-RELEASE?=0.0.1
+RELEASE?=0.0.2
 COMMIT?=$(shell git rev-parse --short HEAD)
 BUILD_TIME?=$(shell date -u '+%Y-%m-%d_%H:%M:%S')
 CONTAINER_IMAGE?=docker.io/jirawat/${APP}
